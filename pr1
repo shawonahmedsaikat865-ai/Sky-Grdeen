@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenSky Garden | Rooftop & Landscape Solutions</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5fff5;
+color:#333;
+}
+
+header{
+background:#0c6b32;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:600;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.btn{
+padding:15px 35px;
+background:#2ecc71;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
+
+section{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#0c6b32;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+color:#0c6b32;
+margin-bottom:15px;
+}
+
+.benefits{
+background:#e8ffe8;
+}
+
+.shop{
+background:white;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.product{
+background:#f8f8f8;
+padding:20px;
+border-radius:12px;
+text-align:center;
+}
+
+.booking{
+background:#0c6b32;
+color:white;
+}
+
+.booking form{
+max-width:700px;
+margin:auto;
+}
+
+.booking input,
+.booking select,
+.booking textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+.booking button{
+background:#2ecc71;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+footer{
+background:#083d1e;
+color:white;
+text-align:center;
+padding:25px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">GreenSky Garden</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Shop</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>নিজের ছাদেই ফল ও সবজির বাগান</h1>
+
+<p>
+বিষমুক্ত সবজি, ফল ও আধুনিক ছাদ বাগান।
+পরিকল্পনা, ডিজাইন ও বাস্তবায়ন একসাথে।
+</p>
+
+<a href="#booking" class="btn">ফ্রি কনসালটেশন বুক করুন</a>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">কেন আমাদের বেছে নিবেন?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>বিষমুক্ত খাদ্য</h3>
+<p>নিজের ছাদে উৎপাদিত নিরাপদ ও স্বাস্থ্যকর সবজি।</p>
+</div>
+
+<div class="card">
+<h3>আধুনিক ছাদ বাগান</h3>
+<p>পরিকল্পিত ডিজাইন ও পেশাদার বাস্তবায়ন।</p>
+</div>
+
+<div class="card">
+<h3>সম্পত্তির সৌন্দর্য বৃদ্ধি</h3>
+<p>ছাদকে সবুজ স্বর্গে পরিণত করুন।</p>
+</div>
+
+<div class="card">
+<h3>সরকারি সুবিধা বিষয়ক পরামর্শ</h3>
+<p>প্রযোজ্য পরিবেশবান্ধব সুবিধা সম্পর্কে গাইডলাইন।</p>
+</div>
+
+</div>
+</section>
+
+<section class="benefits">
+<h2 class="section-title">আমাদের সেবা</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Rooftop Garden</h3>
+<p>সম্পূর্ণ ছাদ বাগান ডিজাইন ও স্থাপন।</p>
+</div>
+
+<div class="card">
+<h3>Balcony Garden</h3>
+<p>ছোট জায়গায় সুন্দর সবুজায়ন।</p>
+</div>
+
+<div class="card">
+<h3>Indoor Greenery</h3>
+<p>বাসা ও অফিসের অভ্যন্তরীণ সবুজায়ন।</p>
+</div>
+
+<div class="card">
+<h3>Vegetable Garden</h3>
+<p>টমেটো, মরিচ, শাকসবজি ও মৌসুমি ফসল।</p>
+</div>
+
+<div class="card">
+<h3>Fruit Garden</h3>
+<p>লেবু, পেয়ারা, ড্রাগন ফলসহ ফলের বাগান।</p>
+</div>
+
+</div>
+</section>
+
+<section class="shop">
+<h2 class="section-title">গার্ডেন শপ</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>জৈব সার</h3>
+<p>৳৩৫০</p>
+</div>
+
+<div class="product">
+<h3>প্রিমিয়াম মাটি</h3>
+<p>৳২৫০</p>
+</div>
+
+<div class="product">
+<h3>গার্ডেন পট</h3>
+<p>৳৪৫০</p>
+</div>
+
+<div class="product">
+<h3>সবজি চারা</h3>
+<p>৳৫০</p>
+</div>
+
+<div class="product">
+<h3>ফল গাছ</h3>
+<p>৳৪০০</p>
+</div>
+
+</div>
+</section>
+
+<section id="booking" class="booking">
+
+<h2 class="section-title" style="color:white;">
+বুকিং করুন
+</h2>
+
+<form>
+
+<input type="text" placeholder="আপনার নাম">
+
+<input type="tel" placeholder="মোবাইল নম্বর">
+
+<input type="text" placeholder="ঠিকানা">
+
+<select>
+<option>সেবা নির্বাচন করুন</option>
+<option>Rooftop Garden</option>
+<option>Balcony Garden</option>
+<option>Indoor Greenery</option>
+<option>Vegetable Garden</option>
+<option>Fruit Garden</option>
+</select>
+
+<input type="number" placeholder="আনুমানিক বাজেট">
+
+<textarea rows="5"
+placeholder="আপনার প্রয়োজন লিখুন"></textarea>
+
+<button type="submit">
+Consultation Request
+</button>
+
+</form>
+
+</section>
+
+<footer>
+© 2026 GreenSky Garden | Rooftop Gardening & Landscaping Solutions
+</footer>
+
+</body>
+</html>
